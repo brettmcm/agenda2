@@ -79,11 +79,11 @@ export default function Home() {
     }
   };
 
-  const handleUpdateItem = (id: string, name: string) => {
-    setItems(items.map(item => 
-      item.id === id ? { ...item, name: name.trim() } : item
-    ));
-  };
+  // const handleUpdateItem = (id: string, name: string) => {
+  //   setItems(items.map(item => 
+  //     item.id === id ? { ...item, name: name.trim() } : item
+  //   ));
+  // };
 
   const handleUpdateDuration = (id: string, duration: number) => {
     setItems(items.map(item => 
