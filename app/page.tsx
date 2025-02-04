@@ -66,7 +66,7 @@ export default function Home() {
     setShowErrorPlaceholder(false);
   };
 
-  const handleDragEnd = (event: any) => {
+  const handleDragEnd = (event: any) => { // eslint-disable-line @typescript-eslint/no-explicit-any
     const { active, over } = event;
     
     if (active.id !== over.id) {
