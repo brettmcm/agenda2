@@ -1,0 +1,50 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+  font-size: 10pt;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.total {
+  font-weight: 400;
+  color: #666;
+  padding: 0;
+  min-width: 32px;
+  font-variant-numeric: tabular-nums;
+  cursor: default;
+}
+
+.clearButton {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: default;
+  color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  margin-left: auto;
+  transition: opacity 0.15s;
+}
+
+.clearButton:hover {
+  color: #ff4444;
+}
+
+@media (prefers-color-scheme: dark) {
+  .total {
+    color: #999;
+  }
+
+  .clearButton {
+    color: #444;
+  }
+
+  .clearButton:hover {
+    color: #ff6666;
+  }
+} 
